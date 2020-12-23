@@ -54,7 +54,9 @@ export class PlayersComponent implements OnInit {
       } else if (player === 2) {
         this.player2Data = res.data;
       }
+      console.log(res); 
     });
+    console.log(this.query);
   }
 
   startBattle(): void {
